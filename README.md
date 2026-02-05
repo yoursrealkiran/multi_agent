@@ -34,9 +34,39 @@ Before running the project, ensure you have:
   - Groq 
   - Tavily 
 
-## ⚙️ Installation
+This project uses `uv` as the python package manager
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/yoursrealkiran/multi_agent.git
-   cd multi_agent
+### Install uv:
+
+`curl -LsSf https://astral.sh/uv/install.sh | sh`
+
+### Verify the installation:
+
+`uv --version`
+
+## Clone the repository or Download as zip file
+
+`https://github.com/yoursrealkiran/multi_agent.git`
+
+`cd multi_agent`
+
+## Environment Setup
+
+### Create a Virual Environment
+
+#### In the terminal, run the below command to create a virtual environment
+
+`uv venv`
+
+#### Activate the environment
+
+`source .venv/bin/activate`
+
+#### Install Dependencies
+
+`uv sync`
+
+## Running the Application
+
+
+`uv run streamlit run main.py`
