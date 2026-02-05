@@ -2,6 +2,14 @@
 
 A powerful multi-agent framework designed to handle complex queries by combining **Retrieval-Augmented Generation (RAG)** with real-time **Web Search** capabilities. This system uses specialized agents to decide when to look at local documents and when to fetch live information from the internet.
 
+# RAG capability
+
+![Demo](images/covid_19.png)
+
+# Web search capability
+
+![Demo](images/f1.png)
+
 ## 🚀 Features
 
 - **Multi-Agent Orchestration:** Uses a supervisor or autonomous agents to delegate tasks.
@@ -13,9 +21,10 @@ A powerful multi-agent framework designed to handle complex queries by combining
 ## 🛠️ Tech Stack
 
 - **Framework:** [LangGraph, LangChain]
-- **LLM:** [openai/gpt-oss-20b from Groq]
+- **LLM:** [openai/gpt-oss-20b from Groq API]
 - **Vector Database:** [ChromaDB]
 - **Search Tool:** [Tavily API]
+- **UI:** [Streamlit]
 
 ## 📋 Prerequisites
 
