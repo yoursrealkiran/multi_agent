@@ -29,7 +29,7 @@ A powerful multi-agent framework designed to handle complex queries by combining
 ## 📋 Prerequisites
 
 Before running the project, ensure you have:
-- Python 3.9+
+- Python 3.11
 - API Keys for:
   - Groq 
   - Tavily 
