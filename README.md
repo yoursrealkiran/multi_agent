@@ -48,7 +48,7 @@ This project uses `uv` as the python package manager
 
 `https://github.com/yoursrealkiran/multi_agent.git`
 
-`cd multi_agent`
+`cd multi_agent/src`
 
 ## Environment Setup
 
