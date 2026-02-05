@@ -43,6 +43,7 @@ def ingest_pdfs_into_vectordb():
     vectorstore = Chroma.from_documents(
         texts, embeddings, persist_directory=config.PERSIST_DIRECTORY
     )
+    vectorstore.persist()
     return len(documents)
 
 def create_retriever():
