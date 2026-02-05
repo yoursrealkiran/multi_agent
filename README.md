@@ -48,7 +48,7 @@ This project uses `uv` as the python package manager
 
 `https://github.com/yoursrealkiran/multi_agent.git`
 
-`cd multi_agent/src`
+`cd multi_agent`
 
 ## Environment Setup
 
@@ -68,5 +68,6 @@ This project uses `uv` as the python package manager
 
 ## Running the Application
 
+`cd multi_agent/src`
 
 `uv run streamlit run main.py`
