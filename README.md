@@ -38,5 +38,5 @@ Before running the project, ensure you have:
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yoursrealkiran/multi_agent.git](https://github.com/yoursrealkiran/multi_agent.git)
+   git clone https://github.com/yoursrealkiran/multi_agent.git
    cd multi_agent
